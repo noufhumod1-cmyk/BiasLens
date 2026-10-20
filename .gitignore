@@ -1,0 +1,26 @@
+# Python / notebooks
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+.DS_Store
+
+# Local datasets
+data/
+
+# Optional / large model formats
+*.pickle
+*.h5
+*.keras
+*.pt
+*.pth
+
+# Generated evaluation figures
+confusion_matrix_test.png
+
+# Local tools
+.streamlit/secrets.toml
